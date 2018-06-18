@@ -14,7 +14,19 @@ nav a {
   line-height: 24px;
   color: rgba(0,0,0,0.87);
   text-decoration: none;
-  padding: 0 10px 0 10px;
+  padding: 3px 10px 3px 10px;
+}
+
+nav button {
+  margin: 0 10px 0 10px;
+  height: 30px;
+  font-weight: 700;
+  background-color: rgb(66,133,244);
+  border-color: rgb(66,133,244);
+  border-radius: 2px;
+  border-style: solid;
+  color: #FFF;
+  padding: 0 15px 0 15px;
 }
 
 #nav-left {
@@ -30,9 +42,42 @@ nav a {
   padding: 0 30px 0 0;
 }
 
+#nav-img {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-size: 528px 68px;
+  background-position: -138px -42px;
+  opacity: 0.85;
+  height: 30px;
+  width: 30px;
+}
+
+
 main {
   text-align: center;
   padding: 50px 0 0 0;
+}
+
+#search-bar {
+  width: 500px;
+}
+
+.search-button {
+  margin: 20px 3px 0 3px;
+  height: 36px;
+  background-color: rgb(242,242,242);
+  border-radius: 2px;
+  border-color: rgb(242,242,242);
+  border-style: solid;
+  color: rgb(117,117,117)
+  font-family: "arial";
+  font-size: 13px;
+}
+
+main p {
+  font-family: "arial";
+  font-size: 13px;
+  color: rgb(34,34,34);
+  padding: 10px 0 0 0;
 }
 
 footer {
